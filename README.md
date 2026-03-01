@@ -26,12 +26,17 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The game's purpose is to try to guess the target number from a range and using hints
 - [ ] Detail which bugs you found.
+The normal and hard mode ranges were switched and the guesses were incorrect
 - [ ] Explain what fixes you applied.
+Swiched the range in the get_range_for_difficulty function
+Line 159 - 162, got rid of the str cast and directly inputted the integer
+38-41: switched the messges go higher and go lower
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [![alt text](image.png)]
 
 ## 🚀 Stretch Features
 
