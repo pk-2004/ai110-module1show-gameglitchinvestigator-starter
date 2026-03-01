@@ -10,8 +10,13 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   1. I would enter a number, but the hint would be wrong. ex. select 100, says go higher, but actual number is 49
   2. Press new game, it does not start a new game, says game over, try again
   3. Difficulty level is messed up, normal is 1 - 100 and hard is 1- 50
+  4. Initially, the text box to entre the number was not there, I had to enter twice and then it came
 
 ---
+
+##TF - Hint
+I would ask the student to add the fixme at a method which contains keywords that describes the error or bug. Example, if error is in sidebar, will guide them to add the fix me near the line where it says sidebar. 
+
 
 ## 2. How did you use AI as a teammate?
 
