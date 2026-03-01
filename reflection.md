@@ -5,26 +5,34 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  The game took a while to load, but eventually I was able to get it to run. 
 - List at least two concrete bugs you noticed at the start  
-  (for example: "the secret number kept changing" or "the hints were backwards").
+  1. I would enter a number, but the hint would be wrong. ex. select 100, says go higher, but actual number is 49
+  2. Press new game, it does not start a new game, says game over, try again
+  3. Difficulty level is messed up, normal is 1 - 100 and hard is 1- 50
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+Claude AI
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+The AI did see the normal and hard ranges were switched. I manually looked at the section it cited to confirm
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+The AI said on of the pytest should work. I ran pytest in the terminal and noticed that it was giving an error. 
 
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+I ran the pytest and saw them all passed. I also took a look at the app to see if the bug was fixed
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  I ran pytest and it said there was an import error as it was missing a package. I manually imported that package and everything worked. 
 - Did AI help you design or understand any tests? How?
-
+AI did help me to understand the test by adding clear variable names and some comments along with some emojis. 
 ---
 
 ## 4. What did you learn about Streamlit and state?
